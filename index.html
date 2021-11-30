@@ -22,7 +22,10 @@
     <div class="container">
       <div class="header__inner">
         <a href="#" class="header__logo logo">
-          <img src="images/dest/logo.png" alt="logo">
+          <picture>
+            <source srcset="images/dest/logo-mobile.png" media="(max-width: 768px)">
+            <img src="images/dest/logo.png" alt="logo">
+          </picture>
         </a>
         <nav class="header-nav">
           <ul class="header-nav__list">
@@ -42,6 +45,11 @@
               <a href="#" class="header-nav__link">КОНТАКТЫ</a>
             </li>
           </ul>
+          <button class="mobile-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
         </nav>
         <a href="#" class="header-application">
           Оставить заявку
@@ -123,31 +131,31 @@
             <div class="advantages__icon">
               <img src="images/dest/check.svg" alt="money">
             </div>
-            <span class="advantages__name">Автоматическая выплата зарплаты каждые 24 часа</span>
+            <span class="advantages__name">Рекомендованный партнер Uber, Bolt, Free Now</span>
           </div>
           <div class="advantages__item">
             <div class="advantages__icon">
               <img src="images/dest/suppot.svg" alt="money">
             </div>
-            <span class="advantages__name">Автоматическая выплата зарплаты каждые 24 часа</span>
+            <span class="advantages__name">Техническая поддержка 24/7 в онлайн-режиме</span>
           </div>
           <div class="advantages__item">
             <div class="advantages__icon advantages__icon_yellow">
               <img src="images/dest/document.svg" alt="money">
             </div>
-            <span class="advantages__name">Автоматическая выплата зарплаты каждые 24 часа</span>
+            <span class="advantages__name">Мы оплачиваем штрафы по безналичным поездкам</span>
           </div>
           <div class="advantages__item">
             <div class="advantages__icon advantages__icon_yellow">
               <img src="images/dest/calendar.svg" alt="money">
             </div>
-            <span class="advantages__name">Автоматическая выплата зарплаты каждые 24 часа</span>
+            <span class="advantages__name">До 2-ух рабочих дней подключения на флот водителя</span>
           </div>
           <div class="advantages__item">
             <div class="advantages__icon advantages__icon_yellow">
               <img src="images/dest/star.svg" alt="money">
             </div>
-            <span class="advantages__name">Автоматическая выплата зарплаты каждые 24 часа</span>
+            <span class="advantages__name">Являемся единственным гарантом выплат на рынке</span>
           </div>
         </div>
       </div>
@@ -319,9 +327,10 @@
               </li>
             </ul>
           </nav>
-          <a href="#" class="footer__logo logo">
+              <picture>
+            <source srcset="images/dest/logo-mobile.png" media="(max-width: 768px)">
             <img src="images/dest/logo.png" alt="logo">
-          </a>
+          </picture>
         </div>
         <div class="footer__bottom">
           <div class="footer__left">
